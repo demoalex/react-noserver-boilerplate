@@ -36,9 +36,7 @@ module.exports = GMailApp = React.createClass({
         var state = (typeof localStorage.state === 'undefined' ? false : JSON.parse(localStorage.state))
             || {
                 labels: [
-                    'Lb1',
-                    'Lb2',
-                    'Lb3'
+                    'Please wait until app is loaded.'
                 ]
             };
 
